@@ -76,8 +76,19 @@ Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write�
 
 ![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/a1437521-b266-4494-bb86-5b0e47936b52)
 
+I will go back to Client-1, and now the "Accountants" folder is showing.
 
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/62c92195-3466-42f8-868c-6b519b5ec445)
 
+Because this user doesn't have access to read and write, I would add this user account in the "Accountants" group in DC-1/ active directory.
+
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/efec23a4-b008-418f-9997-9f4a98c0e170)
+
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/32928d6a-b7a4-4b98-b50a-c13c3d6e29f4)
+
+I will now add the user to this section. This will now allow me to read and write in the Accountants folder in Client-1
+
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/25106fd0-29c9-4ba8-af32-0dab45eaa0b5)
 
 
 # azure-network-protocols
