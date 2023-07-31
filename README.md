@@ -54,6 +54,29 @@ The "No Access" folder will be reserved for the Domain Admins
 
 ![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/db5893b5-5ef0-436a-9ccc-81af5514953e)
 
+I switched back to client 1 and opened DC-1 network folder. As you can see, The user doesnt have access to the "no-access" folder, because its not an admin.
+
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/341ed22c-5987-4ddb-814e-987d3131e9a2)
+
+This user also doesn't have the ability to create a .txt file because its a "read access" only folder
+
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/d25d702f-71bd-450c-891a-ed9fd26d08ef)
+
+I was able to create a file in the "write-access" folder.
+
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/39f48a74-ad30-4fd5-bb9f-0c0f973a5c5a)
+
+I will now create a security group folder in DC-1/ Active Directory. From there, I will create the "accountants" folder.
+
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/b1d83103-cac9-4a6c-981f-41ba7d6b4091)
+
+
+On the “accounting” folder I created earlier, I will set the following permissions:
+Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”
+
+![image](https://github.com/cblack5880/azure-network-protocols/assets/138612466/a1437521-b266-4494-bb86-5b0e47936b52)
+
+
 
 
 
